@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('img1.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-text {
+    font-family: "Bree sherif";
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.home-card {
+    background-color: rgb(240, 58, 89);
+    padding: 25px;
+    color: #ffffff;
+    height: 30vh;
+    width: 40vw;
+    opacity: 0.6;
+}
+
+.home-heading {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.home-para {
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+@media (max-width:576px) {
+    .home-heading {
+        font-size: 11px;
+    }
+
+    .home-para {
+        font-size: 7px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-para {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .home-heading {
+        font-size: 28px;
+    }
+
+    .home-para {
+        font-size: 16px;
+    }
+}
+
+.order-section {
+    background-image: linear-gradient(to right, rgb(202, 68, 160), #f8a42e, #f7fb2b);
+    width: 100vw;
+}
+
+.item-card {
+    background-color: #ffffff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 45vh;
+    width: 280px;
+}
+
+.img {
+    border-top-right-radius: 50px;
+    width: 250px;
+    height: 28vh;
+}
+
+.item-heading {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.item-para {
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.order-heading {
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn-container {
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+.order-btn {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(246, 248, 248);
+    color: black;
+    font-weight: bolder;
+
+
+}
+
+.order-btn:hover {
+    transform: scale(0.8);
+}
